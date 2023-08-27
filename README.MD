@@ -9,9 +9,6 @@
 ## 技术栈
 前端：create-react-app react18 react-router-dom6 md5 antd axios dayjs echarts  后端:nodejs+koa+mongoose
 
-## 项目目录
-都差不多，没啥好说的
-
 ## 项目演示地址
 http://43.138.152.177:8083/
 
