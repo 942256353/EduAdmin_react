@@ -1,0 +1,29 @@
+
+body {
+    background-color: #2a4b69;
+    margin: auto;
+}
+
+#root {
+    min-height: 100vh;
+}
+.login-module {
+    width: 460px;
+    height: 260px;
+    background-color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    border-radius:10px;
+}
+.ant-form {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+}
+.login-module>h2 {
+    text-align-last: center;
+    margin-top: 20px;
+}

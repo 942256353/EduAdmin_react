@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.banner img {
+  width:100%;
+  height:300px;
+}
+
+.breadcrumb {
+  flex:1;
+  margin-left:5px;
+}
+.module-box {
+  display:flex;  /*弹性布局*/
+  justify-content: space-between;
+}
+
+.list-box{
+  margin: 0 10px;
+  padding: 20px;
+  box-shadow: 0 3px 20px 2px rgb(0 0 0 / 30%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.list-box i {
+  font-size: 40px;
+}
+.box:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.box:nth-child(1) .list-box {
+  background-image:linear-gradient(#2277ce,#0356ab);
+}
+.box:nth-child(2) .list-box {
+  background-image:linear-gradient(#ba5bd8,#9f3fbd);
+}
+.box:nth-child(3) .list-box{
+  background-image:linear-gradient(#ea8052,#cf673a);
+}
+.box:nth-child(4) .list-box {
+  background-image:linear-gradient(#84f395,#71c24a);
+}
+.box:nth-child(5) .list-box {
+  background-image:linear-gradient(#A44A38,#902569);
+}
+.marginBottom {
+  margin-bottom: 10px;
+}
+.ant-spin-nested-loading >div>.ant-spin{
+  max-height: fit-content;
+}
+.ant-card .ant-card-body{
+  padding: 10px;
+}
